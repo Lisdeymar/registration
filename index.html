@@ -2,8 +2,104 @@
 <html lang="en">
     <head>
         <title>
-            Hola Mundo!
+            Registration Form
         </title>
         <meta charset="UTF-8" />
     </head>
     <body>
+        <section>
+            <h1>
+                Registration Form
+            </h1>
+        </section>
+        <main>
+            <form>
+                <div>
+                    <label for="first name-usser">
+                        First Name: *
+                    </label>
+                    <input type="text" name="first name-usser" id="first name-usser" placeholder="Your name..." />
+                </div>
+                <div>
+                    <label for="last name-usser">
+                        Last Name: *
+                    </label>
+                    <input type="text" name="last name-usser" id="last name-usser" placeholder="Your last name..." />
+                </div>
+                <div>
+                    <label for="email-usser">
+                        Email Adress: *
+                    </label>
+                    <input type="text" name="email-usser" id="email-usser" placeholder="Your email..." />
+                </div>
+                <div>
+                    <label for="password-usser">
+                        Password: *
+                    </label>
+                    <input type="password" name="password-usser" id="password-usser" /> 
+                </div>
+                <div>
+                    <label for="confirmPassword-usser">
+                        Confirm Password: *
+                    </label>
+                    <input type="password" name="confirmPassword-usser" id="confirmPassword-usser" /> 
+                </div>
+                <div>
+                    <label for="Birthday-usser">
+                        Birthday:
+                    </label>
+                    <input type="date" name="Birthday-usser" id="Birthday-usser" /> 
+                </div>
+                <p>
+                    Gender Identity:
+                </p>
+                <input type="radio" name="genderIdentity" id="genderIdentityMale" />
+                <label for="male">
+                    Male
+                </label>
+                <input type="radio" name="genderIdentity" id="genderIdentityFemale" />
+                <label for="female">
+                    Female
+                </label>
+                <input type="radio" name="genderIdentity" id="genderIdentityNon-binary" />
+                <label for="Non-binary">
+                    Non-binary
+                </label>
+                <input type="radio" name="genderIdentity" id="genderIdentityIPrefernottoanswer" />
+                <label for="Iprefernottoanswer">
+                    I prefer not to answer
+                </label>
+                <div>
+                    <label for="comment">
+                        A short description about myself:
+                    </label>
+                <div>
+                    <textarea name="comment" cols="20" rows="3"></textarea>
+                </div>
+                </div>
+                <div>
+                    <label for="favoriteLanguaje">
+                        Favorite Languaje:
+                    </label>
+                    <select id="favoriteLanguaje" name="favoriteLanguaje">
+                        <option value="javaScript">
+                            JavaScript
+                        </option>
+                        <option value="Python">
+                            Python
+                            <option value="Mern">
+                            Mern
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" name="offers" id="offers" checked >
+                    <label for="offers">Yes, I would like to receive periodic email updates</label>
+                </div>
+                <button type="Create Account">
+                    Create Account
+                </button>
+                <p>
+                    * Indicates a required field
+                </p>
+            </form>
+        </main>
